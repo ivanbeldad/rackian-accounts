@@ -1,0 +1,41 @@
+{
+  "name": "rackian-auth",
+  "version": "0.0.1",
+  "description": "Server for authentication which implements oauth2 and openid connect",
+  "main": "server.js",
+  "scripts": {
+    "test": "standard && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivandelabeldad/rackian-auth.git"
+  },
+  "keywords": [
+    "oauth2",
+    "openid",
+    "openid-connect",
+    "security",
+    "rackian"
+  ],
+  "author": "Ivan de la Beldad Fernandez <ivandelabeldad@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivandelabeldad/rackian-auth/issues"
+  },
+  "homepage": "https://github.com/ivandelabeldad/rackian-auth#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "jest": "^22.4.4",
+    "nodemon": "^1.17.4",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
