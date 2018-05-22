@@ -1,5 +1,5 @@
 {
-  "name": "rackian-auth",
+  "name": "rackian-accounts",
   "version": "0.0.1",
   "description": "Server for authentication which implements oauth2 and openid connect",
   "main": "server.js",
