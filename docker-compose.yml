@@ -1,0 +1,12 @@
+version: '3'
+services:
+  rackian-api:
+    build:
+      context: .
+      args:
+      - PORT
+    image: rackian-auth
+    environment:
+    - PORT
+    - DB_URI
+    - DB_NAME
